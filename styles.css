@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin: 50px 0px 50px 0;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    margin-top: 20px;
+}
+.test::first-letter{
+    font-weight: bold;
+    font-size: 300px;
+}
+li{
+    display: inline;
+}
+section{
+    margin: 20px 0 20px 0;
+}
+img{
+    width: 20%;
+}
+table{
+    margin: auto;
+}
+#about{
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+a{
+    all: unset;
+}
+.nav-links > a{
+    text-decoration: none;
+    padding: 15px;
+    
+}
+.nav-links > a:hover{
+    color: red;
+    cursor: pointer;
+    
+}
